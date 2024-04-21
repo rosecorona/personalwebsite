@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Personal Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f0e6; /* Peach background color */
+            text-align: center;
+        }
+        header {
+            background-color: #5f4b8b; /* Lavender header color */
+            color: white;
+            padding: 20px 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+        .category {
+            margin-bottom: 40px;
+        }
+        .category h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        .category img {
+            width: 100%;
+            max-width: 300px;
+            height: auto;
+            margin-bottom: 10px;
+        }
+        @media only screen and (max-width: 600px) {
+            h1 {
+                font-size: 24px;
+            }
+            .category img {
+                max-width: 200px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Your Name</h1>
+    </header>
+    <div class="container">
+        <div class="category">
+            <h2>Life</h2>
+            <a href="life.html"><img src="life.jpg" alt="Life"></a>
+        </div>
+        <div class="category">
+            <h2>Experience</h2>
+            <a href="experience.html"><img src="experience.jpg" alt="Experience"></a>
+        </div>
+        <div class="category">
+            <h2>Skills</h2>
+            <a href="skills.html"><img src="skills.jpg" alt="Skills"></a>
+        </div>
+    </div>
+</body>
+</html>
